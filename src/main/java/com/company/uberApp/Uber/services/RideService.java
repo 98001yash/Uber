@@ -11,7 +11,7 @@ import org.springframework.data.domain.PageRequest;
 public interface RideService {
 
     Ride getRideById(Long rideId);
-    Ride createNewRide(RideRequest rideRequest);
+    Ride createNewRide(RideRequest rideRequest, Driver savedDriver);
 
     Ride updateRideStatus(Ride ride, RideStatus rideStatus);
 
