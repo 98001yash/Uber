@@ -12,7 +12,7 @@ import org.springframework.data.domain.PageRequest;
 public interface RiderService {
 
     RideRequestDto requestRide(RideRequestDto rideRequestDto);
-    RiderDto cancelRide(Long rideId);
+    RideDto cancelRide(Long rideId);
     DriverDto rateDriver(Long rideId, Integer rating);
     RiderDto getMyProfile();
 
